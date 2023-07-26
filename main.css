@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: #fff;
+    font-family: 'Noto Serif', serif;
+}
+
+header,
+section h2,
+section h3 {
+    font-family: 'Cinzel', serif;
+    font-weight: normal;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+#about .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#about img {
+    width: 50%;
+}
+
+#aic,
+#aic1 {
+    width: 100%;
+}
+
+.cover img {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.cover { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 16px;
+}
+
+.cover:hover :not(:hover){
+    opacity:0.8;
+}
+
+.cover img:hover{
+    scale: 1.1;
+}
+
+.container p,
+.container h2,
+.container h3,
+.container .dates {
+    padding: 16px;
+}
+
+#tour h2 {
+    background-image: url(./images/tour-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1280px;
+    height: 300px;
+    text-align: center;
+}
+
+.social-links {
+    background-image: url(./images/alice-footer.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+
+.social-links img {
+    height: 80px;
+}
+
+.social-links li {
+    display: inline;
+    margin: 10%;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.social-links li a {
+    text-decoration: none;
+    
+}
+
+.container .contact-methods {
+    margin: 16px;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #a7a7a7;
+}
+
+footer {
+    padding: 16px;
+}
